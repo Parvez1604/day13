@@ -9,4 +9,5 @@ RUN apt-get update && apt-get install -y curl
 
 # Default command
 CMD ["echo", "Hello Parvez! You built a Docker image!"]
+CMD["echo","New build successful"]
 
